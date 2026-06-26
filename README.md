@@ -1,26 +1,37 @@
 # Employee Management System
 
-A modern Employee Management System (EMS) built with React. The application provides separate dashboards for administrators and employees, allowing task assignment and task management through a clean, responsive interface.
+🔗 **Live Demo:** https://employee-management-system-ruby-kappa.vercel.app/
+
+A modern Employee Management System (EMS) built with React. The application features separate dashboards for administrators and employees, enabling task assignment and task management through a clean, responsive interface.
+
+## Demo Credentials
+
+| Role         | Email                     | Password |
+| ------------ | ------------------------- | -------- |
+| **Admin**    | `admin@me.com`            | `123`    |
+| **Employee** | `aarav.mehta@example.com` | `123`    |
+
+> You can also log in using any employee account available in the application.
 
 ## Features
 
-- Admin and Employee authentication
-- Separate dashboards based on user role
-- Create and assign tasks to employees
-- Track task status:
-  - New
-  - Active
-  - Completed
-  - Failed
-- Dynamic task counters
-- Kanban-style task board
-- Local Storage for data persistence
-- Responsive and modern UI
+* Role-based authentication
+* Separate Admin and Employee dashboards
+* Create and assign tasks to employees
+* Task status management (New, Active, Completed, Failed)
+* Dynamic task counters
+* Kanban-style board
+* Persistent data using Local Storage
+* Responsive modern UI
 
 ## Tech Stack
 
-- React
-- JavaScript (ES6+)
-- Tailwind CSS
-- Context API
-- Local Storage
+* React
+* JavaScript (ES6+)
+* Tailwind CSS
+* Context API
+* Local Storage
+
+## Note
+
+> This project uses browser Local Storage for demonstration purposes. Tasks created within the application are stored locally in your browser and are not synchronised across users or devices.
